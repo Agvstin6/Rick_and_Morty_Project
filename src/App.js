@@ -3,10 +3,13 @@ import Cards from './components/Cards.jsx'
 import Nav from './components/Nav/Nav'
 import About from './components/About/About'
 import Detail from './components/Detail/Detail'
+import Form from './components/Form/Form'
 import { useState } from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useLocation } from 'react-router-dom'
 
 function App() {
+
+  const location = useLocation();
 
   const [characters, setCharacters] = useState([])
 
@@ -47,7 +50,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Nav onSearch={onSearch} randomSearch={randomSearch} />
+      {location.pathname === '/' ? <Form /> : <Nav onSearch={onSearch} randomSearch={randomSearch} />}      
       <Routes>
         <Route path='home' element={<Cards characters={characters} onClose={onClose} />}/>
         <Route path='about' element={<About />}/>
