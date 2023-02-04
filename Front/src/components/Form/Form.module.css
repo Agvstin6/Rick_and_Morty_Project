@@ -1,0 +1,62 @@
+.divForm{
+    color: #fff;
+    background: rgb(39,39,39);
+background: linear-gradient(125deg, rgba(39,39,39,1) 0%, rgb(58, 58, 58) 50%, rgba(39,39,39,1) 100%);
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divForm img{
+    height: 50rem;
+}
+
+.title{
+    color: #fff;
+    font-size: 5rem;    
+    text-shadow: rgb(97, 97, 97) 5px 0 10px;
+}
+
+.styledForm{
+    display: grid;
+    gap: 0.5rem;
+    width: 15rem;
+    position: relative;
+    left: 6.2rem;
+}
+
+.styledForm input{
+    background-color: #444444;
+    border: 0px;
+    border-radius: 1.5rem; 
+    height: .5rem;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
+.styledForm input:hover{
+    box-shadow: 0px 5px 15px #444444;
+}
+
+.styledForm button{
+    position: relative;
+    left: 5.3rem;
+    background-color: #70e000;
+    width: 5rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+.styledForm button:hover{
+    background-color: #7beb0c;
+    box-shadow: 0 5px 15px #70e00061;
+}
+
+.styledForm label{
+    font-weight: bolder;
+}

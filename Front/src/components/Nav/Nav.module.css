@@ -1,0 +1,72 @@
+.navDiv{
+    background-color: #272727;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position: fixed;
+    z-index: 9999;
+    top: 0%;
+    left: 0%;
+    width: 90%;
+    height: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.navDiv img{
+    height: 4.9rem;
+    position: relative;
+    right: 5rem;
+}
+
+.buttonRandom{
+    position: absolute;
+   top: 1.5rem;
+   right: 20rem;
+   background-color: #70e000;
+   color: #272727;
+   border-radius: 50%;
+   border: 0ch;
+   height: 1.75rem;
+   width: 1.75rem;
+   margin-left: 0.5em;
+   font-weight: bold;
+   cursor: pointer;
+   text-align: center;
+   font-size: larger;
+}
+.buttonRandom:hover{
+    box-shadow: 0 5px 15px #70e00061;
+}
+
+.buttonNavs{
+    position: relative;
+    right: 35rem;
+    bottom: 2rem;
+    margin-right: 1rem;
+    background-color: #70e000;
+    color: #272727;
+    border-radius: 50%;
+    border: 0ch;
+    margin-left: 0.5em;
+    cursor: pointer;
+    height: 1.75rem;
+    width: 1.75rem;
+}
+.buttonNavs:hover{
+    box-shadow: 0 5px 15px #70e00061;
+}
+
+.imagen{
+    position: relative;
+    top:10rem;
+    height: 5.9rem;
+    z-index: 1;
+}
+
+.spanOp{
+    position: relative;
+    top: 8rem;
+    right: 2rem;
+    z-index: 1;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}

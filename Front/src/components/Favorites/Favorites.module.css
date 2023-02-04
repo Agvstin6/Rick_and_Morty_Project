@@ -1,0 +1,30 @@
+.selectStyled{
+background-color: #272727;
+color: #70e000;
+height: 2rem;
+border: none;
+border-radius: .75rem;
+text-align: center;
+}
+
+.filterDiv{
+    display: grid;
+    gap: 0.5rem;
+    padding: .5rem;
+    position: relative;
+    top: 10rem;
+    left: 1600px;
+    background-color: #ffffffc3;
+    width: 10rem;
+    border: 0;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.divFavs h1{
+    color: #272727;
+    position: relative;
+    bottom: 3rem;
+    right: 6rem;
+    font-size: 3rem;
+}
